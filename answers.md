@@ -10,13 +10,13 @@ __URLs__
 
 * Name the pieces of the following urls:
 	* `https://www.google.com/`
-	 - protocol://host name/
+	 - protocol://hostName.topLevelDomain/
 	* `https://workbook.galvanize.com/cohorts/41/learning_experiences/367`
-	 - protocol://server name/directory name/path/path/file
+	 - protocol://subdomain.hostname.topLevelDomain/path
 	* `http://locahost:5000/animals/puppies?onlycute=1&size=medium#firstpuppy`
-	 - protocol://server name(local): port/directory/path/query string
+	 - protocol://hostName(local):port/path/parameters
 	* `https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#4xx_Client_Error`
-	 - protocol://language.host name/directory/file
+	 - protocol://language.hostName/path
 * Can a server use more than 1 port?
  - yes...ports can be dynamically assigned on a per request basis from a reserved pool of port numbers
 
